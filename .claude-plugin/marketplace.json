@@ -1,0 +1,17 @@
+{
+  "name": "wow-companion",
+  "owner": {
+    "name": "pgmiranda-rk"
+  },
+  "metadata": {
+    "description": "The World of Warcraft companion: a coach beside the game, and Claude Code as the companion."
+  },
+  "plugins": [
+    {
+      "name": "wow-companion",
+      "source": "./plugins/wow-companion",
+      "description": "The live World of Warcraft companion: its role and modules come from the coach (briefing), each reply goes back to it.",
+      "version": "1.0.0"
+    }
+  ]
+}

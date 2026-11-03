@@ -1,0 +1,8 @@
+{
+  "name": "wow-companion",
+  "version": "1.0.0",
+  "description": "The live World of Warcraft companion: its role and modules come from the coach (briefing), each reply goes back to it.",
+  "author": {
+    "name": "pgmiranda-rk"
+  }
+}

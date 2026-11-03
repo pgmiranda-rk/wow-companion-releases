@@ -7,3 +7,11 @@ Written by the release job (tools/release.sh in the private repository); changes
        https://pgmiranda-rk.github.io/wow-companion-releases/install.sh | bash -s -- --wow "D:/Jogos/World of Warcraft"'
 
 Run it again to upgrade. `VERSION=<version>` installs another.
+
+Then the companion, in Claude Code on the same computer (it reaches the coach at http://localhost:7710), in a
+folder of its own so it is only in the sessions started there:
+
+    mkdir wow-companion && cd wow-companion
+    claude plugin marketplace add pgmiranda-rk/wow-companion-releases
+    claude plugin install wow-companion@wow-companion --scope project
+    claude

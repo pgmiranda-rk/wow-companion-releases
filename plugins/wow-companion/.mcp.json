@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "coach": {
+      "type": "http",
+      "url": "http://localhost:7710/mcp"
+    }
+  }
+}
