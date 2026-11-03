@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "curl -s --max-time 5 http://localhost:7710/role || echo \"You are the player's World of Warcraft companion. Call the coach tool briefing first and follow the role it returns.\"; echo; echo 'This session is the live WoW companion, not a builder. Whatever the player writes first (even just a greeting or the session name), start by calling the coach tool briefing, then greet him as his companion.'",
+            "command": "curl -s --max-time 5 http://localhost:7710/role || echo 'You are the World of Warcraft companion. Call the coach tool briefing first and follow the role it returns.'; echo; echo 'This session is the live WoW companion, not a builder. Whatever the player writes first, even just a greeting or the session name, start by calling the coach tool briefing, then greet him as his companion.'",
             "timeout": 10
           }
         ]

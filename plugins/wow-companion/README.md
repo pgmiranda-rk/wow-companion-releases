@@ -6,7 +6,8 @@ http://localhost:7710.
 
 In a folder of its own, so the companion is only in the sessions started there:
 
-    mkdir wow-companion && cd wow-companion
+    mkdir wow-companion
+    cd wow-companion
     claude plugin marketplace add pgmiranda-rk/wow-companion-releases
     claude plugin install wow-companion@wow-companion --scope project
     claude        # then say hello
