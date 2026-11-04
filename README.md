@@ -5,6 +5,9 @@ Written by the release job (tools/release.sh in the private repository); changes
     docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock alpine sh -c 'apk add --no-cache bash curl docker-cli docker-cli-compose >/dev/null && curl -fsSL https://pgmiranda-rk.github.io/wow-companion-releases/install.sh | bash'
 
 It asks where World of Warcraft is (the folder holding _retail_ / _forever_), once: an upgrade remembers it.
+
+On a Mac, first: Docker Desktop → Settings → Resources → File sharing, add /Applications; and Settings → General →
+file sharing implementation **osxfs (Legacy)**, Apply & restart (with VirtioFS the coach stops hearing the game).
 Run it again to upgrade. `VERSION=<version>` installs another.
 
 Then the companion, in Claude Code on the same computer (it reaches the coach at http://localhost:7710), in a
